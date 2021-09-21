@@ -1,0 +1,40 @@
+.header {
+    padding: 20px 0;
+    background: #f5f5f5;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo {
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+.header nav ul li {
+    margin: 0 8px;
+}
+.header nav ul li a {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 12px;
+    transition: 0.3s all ease;
+}
+.header nav ul li a:hover {
+    background: #fff;
+    color: #000;
+}
