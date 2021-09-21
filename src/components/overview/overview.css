@@ -1,0 +1,63 @@
+.overview-table {
+    padding: 50px 0;
+    min-height: 638px;
+}
+
+.overview-row {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.overview-left, .overview-right {
+    display: flex;
+    align-items: center;
+}
+
+.overview-row h5, p {
+    margin-bottom: 0;
+}
+
+.overview-row h5 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #000;
+    margin-right: 12px;
+    text-transform: capitalize;
+}
+
+.overview-row p {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #000;
+    margin-right: 15px;
+}
+
+.overview-row .form-group {
+    margin-bottom: 0;
+}
+
+.overview-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.overview-icon img {
+    height: 100%;
+    width: 100%;
+}
+
+.overview-row select {
+    font-size: 14px;
+    font-weight: 500;
+}

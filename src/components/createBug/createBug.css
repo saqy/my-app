@@ -1,0 +1,44 @@
+.create-section {
+    padding: 87px 0 88px;
+}
+.create-content h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.create-content h6 {
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.create-content span {
+    background: #f5f5f5;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.create-content form .form-group label {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    
+}
+.create-content form .form-group input, .create-content form .form-group textarea, .create-content form .form-group select {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+    resize: none;
+}
